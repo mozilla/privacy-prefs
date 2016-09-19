@@ -6,3 +6,4 @@ node_modules/*
 coverage/
 test/z-ensure-coverage.js
 testing-env
+README.html
