@@ -1,5 +1,4 @@
 # start by blocking everything
-
 *
 .*
 
@@ -10,12 +9,9 @@
 ## these node modules should ship
 !/node_modules/shield-studies-addon-utils/**
 
-
 ## allow in lib and data
-!/{lib,data}/**
-  # but not .DS_Store files!
-{lib,data}/**/.DS_Store
-{lib,data}/**/.eslintrc
+!/{data,lib}/**
 
-
-
+# but not .DS_Store files!
+{data,lib}/**/.DS_Store
+{data,lib}/**/.eslintrc.yml

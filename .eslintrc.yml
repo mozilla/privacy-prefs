@@ -1,0 +1,17 @@
+extends:
+  - eslint:recommended
+
+env:
+  browser: true
+  es6: true
+  node: true
+
+root: true
+
+rules:
+  comma-dangle: off
+  indent: [error, 2]
+  no-console: off
+  no-unused-vars: [error, { vars: all, args: none }]
+  quotes: [error, double]
+  semi: [error, never]
