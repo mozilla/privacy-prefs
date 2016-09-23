@@ -2,8 +2,13 @@
 
 ## Purpose
 
-Firefox contains a number of `about:config` preferences that can improve user
-privacy.
+Firefox contains a number of [`about:config`
+preferences](http://searchfox.org/mozilla-central/source/modules/libpref/init/all.js) 
+that can improve user privacy. E.g.,
+
+* [https://github.com/fmarier/user.js/blob/SeaGL/user.js](https://github.com/fmarier/user.js/blob/SeaGL/user.js)
+* [securefox etherpad of
+  ideas](https://public.etherpad-mozilla.org/p/securefox)
 
 This [Shield Study](https://wiki.mozilla.org/Firefox/Shield/Shield_Studies) 
 add-on sets these preferences to non-default values, so we can measure [user 
