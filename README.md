@@ -7,8 +7,8 @@ preferences](http://searchfox.org/mozilla-central/source/modules/libpref/init/al
 that can improve user privacy. E.g.,
 
 * [https://github.com/fmarier/user.js/blob/SeaGL/user.js](https://github.com/fmarier/user.js/blob/SeaGL/user.js)
-* [securefox etherpad of
-  ideas](https://public.etherpad-mozilla.org/p/securefox)
+* [securefox ideas etherpad](https://public.etherpad-mozilla.org/p/securefox)
+* [Referrer Improvements ideas etherpad](https://public.etherpad-mozilla.org/p/referrerimprovements)
 
 This [Shield Study](https://wiki.mozilla.org/Firefox/Shield/Shield_Studies) 
 add-on sets these preferences to non-default values, so we can measure [user 
