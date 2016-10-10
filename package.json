@@ -1,13 +1,13 @@
 {
-  "title": "Template for creating shield study addons",
-  "name": "shield-studies-addon-template",
+  "title": "Privacy Protection Prefs",
+  "name": "privacy-prefs-shield-study",
   "version": "0.0.1",
-  "description": "A basic add-on",
+  "description": "Shield Study Add-on to experiment with various Firefox privacy preference values",
   "main": "lib/index.js",
-  "author": "Gregg Lind <glind@mozilla.com>",
+  "author": "Luke Crouch <lcrouch@mozilla.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gregglind/shield-studies-addon-template/issues"
+    "url": "https://github.com/mozilla/privacy-prefs/issues"
   },
   "engines": {
     "firefox": ">=38.0a1",
@@ -15,7 +15,8 @@
   },
   "keywords": [
     "jetpack",
-    "shield-study"
+    "shield-study",
+    "privacy"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -33,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gregglind/shield-studies-addon-template.git"
+    "url": "git://github.com/mozilla/privacy-prefs.git"
   },
   "scripts": {
     "eslint": "grunt eslint",
