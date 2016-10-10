@@ -1,10 +1,9 @@
 sudo: false
-language: node_js
-node_js:
-- "5.6"
 
-env:
-- TRAVIS=1
+language: node_js
+
+node_js:
+  - "6"
 
 # before_install:
 #  - cd to your src if needed
@@ -16,5 +15,6 @@ before_script:  # turn off screen
 
 addons:
   firefox: "latest"
+
 notifications:
   email: false
